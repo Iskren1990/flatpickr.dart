@@ -43,7 +43,7 @@ class Flatpickr {
   external HtmlElement get days;
 
   /// The array of selected dates (Date objects).
-  external List get selectedDates;
+  external List? get selectedDates;
 
   /// The year currently displayed on the calendar.
   external int get currentYear;
